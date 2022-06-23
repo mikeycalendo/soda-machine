@@ -1,0 +1,25 @@
+{
+  "name": "optimized-soda-images",
+  "version": "1.0.0",
+  "homepage": "https://optimized-soda-images.vercel.app",
+  "repository": "https://github.com/mikeycalendo/optimized-soda-images",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.1.0",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "@types/react": "17.0.38",
+    "eslint": "^8.9.0",
+    "eslint-config-next": "^12.1.0",
+    "typescript": "4.5.5"
+  }
+}
