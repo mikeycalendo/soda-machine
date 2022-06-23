@@ -104,7 +104,7 @@
     "eslint-plugin-react": "7.30.0",
     "prettier": "2.7.1"
   },
-  "engine": "node <= 15npm",
+  "engine": "node <= 15",
   "scripts": {
     "deploy-preview": "npx vercel",
     "deploy-production": "npx vercel --prod",
