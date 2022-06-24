@@ -30,7 +30,7 @@ This app was built for a job interview proccess. In a real world production envi
 
 How it works:
 
-The public and auth routes are predeterminded through the use of middleware in the /src/routes folder, and App.js file. Unregistered users are able to signin, register, browse the public soda-machine, and make a fake purchase (we are just downloading a json object representation of the soda data) without being authenticated in the system. The app also serves as an admin dashboard for registered or hardwired users such as employees of the soda company. The authenticated API routes allow users to update product prices, add more inventory, and also update their  user email address.
+The public and auth routes are predeterminded through the use of middleware in the src/routes folder, and the src/App.js file. Unregistered users are able to signin, register, browse the public soda-machine, and make a fake purchase (we are just downloading a json object representation of the soda data) without being authenticated in the system. The app also serves as an admin dashboard for registered or hardwired users such as employees of the soda company. The authenticated API routes allow users to update product prices, add more inventory, and also update their  user email address.
 
 There is also a next.js app called optimized-soda-images that was built to take advantage of Next.js's edge _middleware functionality and makes serving static assets super easy. In this app the soda images are served at the edge by next.js _middleware routes by parsing the png to a blob and then returning it as the response body.
 
